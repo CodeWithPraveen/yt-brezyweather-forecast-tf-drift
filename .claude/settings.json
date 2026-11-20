@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "defaultMode": "default",
+    "allow": [
+      "Edit(*.tf)",
+      "Bash(terraform plan *)",
+      "Bash(terraform show *)",
+      "Bash(terraform validate *)",
+      "Bash(terraform fmt *)",
+      "Bash(terraform output *)",
+      "Bash(terraform state list *)",
+      "Bash(terraform state show *)"
+    ],
+    "ask": [
+      "Bash(terraform apply *)",
+      "Bash(terraform import *)"
+    ],
+    "deny": [
+      "Bash(terraform destroy *)",
+      "Bash(terraform apply -destroy *)",
+      "Bash(terraform state rm *)",
+      "Bash(terraform state mv *)",
+      "Bash(terraform state push *)",
+      "Bash(terraform force-unlock *)",
+      "Bash(az group delete *)",
+      "Bash(az storage account delete *)",
+      "Read(*.tfstate)",
+      "Read(*.tfstate.*)",
+      "Read(tfplan)",
+      "Read(*.tfplan)"
+    ]
+  }
+}
