@@ -1,6 +1,6 @@
 # BrezyWeather Forecast Storage: Terraform Drift
 
-Demo repository for the Code with Praveen video "Detect and Fix Terraform Drift with an AI Agent". A Terraform storage account on Azure, a script that changes it the way someone would in the portal, and Claude Code rules that allow `terraform plan`, ask before `terraform apply`, and deny `terraform destroy` and reads of the state and plan files.
+Demo repository for the Code with Praveen video "Fix Terraform Drift with an AI Agent". A Terraform storage account on Azure, a script that changes it the way someone would in the portal, and Claude Code rules that allow `terraform plan`, ask before `terraform apply`, and deny `terraform destroy` and reads of the state and plan files.
 
 ## Requirements
 
